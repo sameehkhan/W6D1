@@ -1,6 +1,3 @@
-// Function.prototype.inherits2 = function inherits2(Parent) {
-//   this.prototype = Object.create(Parent.prototype);
-//   this.prototype.constructor = this;
-// };
+export default MovingObject;
 
 Asteroid.inherits2 = function inherits2(MovingObject) {};
